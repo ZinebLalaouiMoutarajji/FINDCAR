@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "579726839877",
+    "firebase_url": "https://psagroupe-d0168.firebaseio.com",
+    "project_id": "psagroupe-d0168",
+    "storage_bucket": "psagroupe-d0168.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579726839877:android:7f69a6425a6e37bf",
+        "android_client_info": {
+          "package_name": "com.hypertrack.uber_consumer.activities"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579726839877-6eup8m1lvadkti633s6r9f6mov102k1v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hypertrack.uber_consumer.activities",
+            "certificate_hash": "d350420783986db8193970e84b6546b88fbddf47"
+          }
+        },
+        {
+          "client_id": "579726839877-0trk2gloo1vopjbsrivn64n30037k6f1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgm5ik69F1ZmrSi8aCxb9RtKnTsT0FZH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579726839877-0trk2gloo1vopjbsrivn64n30037k6f1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579726839877:android:045655fbf3824f75",
+        "android_client_info": {
+          "package_name": "eu.basicairdata.graziano.gpslogger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579726839877-uid216jcfo87vo30to9vnl32vdrsp0cj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eu.basicairdata.graziano.gpslogger",
+            "certificate_hash": "d350420783986db8193970e84b6546b88fbddf47"
+          }
+        },
+        {
+          "client_id": "579726839877-0trk2gloo1vopjbsrivn64n30037k6f1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgm5ik69F1ZmrSi8aCxb9RtKnTsT0FZH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579726839877-0trk2gloo1vopjbsrivn64n30037k6f1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579726839877:android:48acecc18a631f05",
+        "android_client_info": {
+          "package_name": "projet.basicairdata.graziano.gpslogger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579726839877-64d0pp7uarm2kngc66mnl945vo22kl9j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "projet.basicairdata.graziano.gpslogger",
+            "certificate_hash": "d350420783986db8193970e84b6546b88fbddf47"
+          }
+        },
+        {
+          "client_id": "579726839877-0trk2gloo1vopjbsrivn64n30037k6f1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgm5ik69F1ZmrSi8aCxb9RtKnTsT0FZH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579726839877-0trk2gloo1vopjbsrivn64n30037k6f1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

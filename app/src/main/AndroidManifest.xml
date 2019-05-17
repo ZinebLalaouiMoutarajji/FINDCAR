@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.basicairdata.graziano.gpslogger">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="true" />
+
+    <application
+        android:name=".GPSApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/gps_logger"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".DriverMapActivity7"
+            android:label="@string/title_activity_driver_map7"></activity>
+        <activity
+            android:name=".DriverMapActivity6"
+            android:label="@string/title_activity_driver_map6" />
+        <activity
+            android:name=".DriverMapActivity5"
+            android:label="@string/title_activity_driver_map5" />
+        <activity
+            android:name=".DriverMapActivity4"
+            android:label="@string/title_activity_driver_map4" />
+        <activity
+            android:name=".DriverMapActivity3"
+            android:label="@string/title_activity_driver_map3" />
+        <activity
+            android:name=".DriverMapActivity2"
+            android:label="@string/title_activity_driver_map2" />
+        <activity android:name=".DriverSettingsActivity" />
+        <activity
+            android:name=".DriverMapActivity"
+            android:label="@string/title_activity_driver_map" />
+        <activity android:name=".CustomerSettingsActivity" />
+        <activity
+            android:name=".CustomerMapActivity7"
+            android:label="@string/title_activity_customer_map7" />
+        <activity
+            android:name=".CustomerMapActivity6"
+            android:label="@string/title_activity_customer_map6" />
+        <activity
+            android:name=".CustomerMapActivity5"
+            android:label="@string/title_activity_customer_map5" />
+        <activity
+            android:name=".CustomerMapActivity4"
+            android:label="@string/title_activity_customer_map4" />
+        <activity
+            android:name=".CustomerMapActivity3"
+            android:label="@string/title_activity_customer_map3" />
+        <activity
+            android:name=".CustomerMapActivity2"
+            android:label="@string/title_activity_customer_map2" />
+        <activity
+            android:name=".CustomerMapActivity"
+            android:label="@string/title_activity_customer_map" />
+        <activity android:name=".PisteDriver" />
+        <activity android:name=".Piste" />
+        <activity android:name=".CustomerLoginActivity" />
+        <activity android:name=".DriverLoginActivity" />
+        <activity android:name=".GPSActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/menu_settings"
+            android:launchMode="singleTask">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GPSActivity" />
+        </activity>
+
+        <service
+            android:name=".GPSService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="eu.basicairdata.graziano.gpslogger.GPSService" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
